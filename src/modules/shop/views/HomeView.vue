@@ -357,3 +357,11 @@
     </div>
   </section>
 </template>
+
+<script lang="ts" setup>
+import { tesloApi } from '@/api/tesloApi';
+
+// eslint-disable-next-line @typescript-eslint/no-unused-expressions
+tesloApi;
+
+</script>
