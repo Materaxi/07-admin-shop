@@ -359,9 +359,9 @@
 </template>
 
 <script lang="ts" setup>
-import { tesloApi } from '@/api/tesloApi';
+import { getProducts } from '@/modules/products/actions';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-expressions
-tesloApi;
+
+getProducts();
 
 </script>
